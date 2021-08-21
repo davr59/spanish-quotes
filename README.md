@@ -1,2 +1,2 @@
 # quotes
-quotes
+quotes | frases

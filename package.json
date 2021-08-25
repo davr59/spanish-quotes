@@ -1,0 +1,30 @@
+{
+  "name": "spanish-quotes",
+  "version": "1.0.0",
+  "description": "A simple NPM Package which returns quotes in spanish.",
+  "keywords": [
+    "spanish",
+    "quote",
+    "quotes",
+    "español",
+    "frase",
+    "frases",
+    "cita",
+    "citas"
+  ],
+  "homepage": "https://github.com/davr59/spanish-quotes",
+  "bugs": {
+    "url": "https://github.com/davr59/spanish-quotes/issues",
+    "email": "davr59@outlook.com.com"
+  },
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davr59/spanish-quotes.git"
+  },
+  "author": "davr59 <davr59@outlook.com.com>",
+  "license": "MIT",
+  "private": false
+}

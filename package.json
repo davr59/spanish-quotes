@@ -23,6 +23,7 @@
     "type": "git",
     "url": "https://github.com/davr59/spanish-quotes.git"
   },
+  "type": "module",
   "devDependencies": {
     "eslint": "^7.12.1",
     "eslint-config-standard": "^16.0.1",

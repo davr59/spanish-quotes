@@ -1,5 +1,4 @@
-# spanish-quotes
-spanish quotes | frases en español.
+# spanish quotes | frases en español
 
 NPM package to get spanish quotes.
 
@@ -17,7 +16,11 @@ npm i spanish-quotes --save
 
 ## Usage | Uso
 
-getRandomQuote() function that returns a random quote | función que retorna una frase aleatoria:
+* getRandomQuote()
+
+Function that returns a random quote:
+
+Función que retorna una frase aleatoria:
 
 ```json
 {

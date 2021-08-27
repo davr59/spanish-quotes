@@ -2,7 +2,7 @@
 
 NPM package to get spanish quotes.
 
-Paquete NPM para obtener frasen en español.
+Paquete NPM para obtener frases en español.
 
 ## Quickstart | Inicio rápido
 

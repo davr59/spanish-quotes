@@ -14,6 +14,12 @@ Ejecutar:
 npm i spanish-quotes --save
 ```
 
+## Import | Importar
+
+```javascript
+import quotes from 'spanish-quotes';
+```
+
 ## Usage | Uso
 
 * getRandomQuote()
@@ -21,6 +27,14 @@ npm i spanish-quotes --save
 Function that returns a random quote:
 
 Función que retorna una frase aleatoria:
+
+```javascript
+quotes.getRandomQuote();
+```
+
+Result:
+
+Resultado:
 
 ```json
 {

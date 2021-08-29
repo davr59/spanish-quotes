@@ -24,8 +24,8 @@ Función que retorna una frase aleatoria:
 
 ```json
 {
-  "quote": "",
-  "from": ""
+  "quote": "La historia decía que era prisionera, pero eso no era cierto, porque ella tenía esperanza y cuando hay esperanza no eres prisionero de nadie.",
+  "from": "Despereaux: un pequeño gran héroe"
 }
 ```
 

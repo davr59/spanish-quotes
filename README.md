@@ -5,7 +5,7 @@ NPM package to get spanish quotes.
 Paquete NPM para obtener frases en español.
 
 <p align="center">
-  <a href="https://www.npmjs.com/@angular/core">
+  <a href="https://www.npmjs.com/package/spanish-quotes">
     <img src="https://img.shields.io/npm/v/spanish-quotes.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="spanish-quotes on npm" />
   </a>
 </p>

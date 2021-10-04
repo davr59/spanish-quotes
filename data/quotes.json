@@ -1,5 +1,14 @@
 [
   {
+    "quote": "Los milagros toman tiempo.",
+    "from": "Los 100"
+  },
+  {
+    "quote": "Espíritu y agallas.",
+    "from": "Frequency"
+  },
+
+  {
     "quote": "Un viaje de mil millas comienza con el primer paso.",
     "from": "Proverbio chino"
   },
@@ -9,7 +18,7 @@
   },
   {
     "quote": "La historia decía que era prisionera, pero eso no era cierto, porque ella tenía esperanza y cuando hay esperanza no eres prisionero de nadie.",
-    "from": "Despereaux: un pequeño gran héroe"
+    "from": "The Tale of Despereaux"
   },
   {
     "quote": "El norte cardinal es un punto en un mapa. ¿El norte verdadero? Es el hogar.",
@@ -21,7 +30,7 @@
   },
   {
     "quote": "Otras cosas nos cambian, pero empezamos y acabamos con la familia.",
-    "from": "Amor y Monstruos"
+    "from": "Love and Monsters"
   },
   {
     "quote": "La libertad debe ser desorganizada.",
@@ -73,7 +82,7 @@
   },
   {
     "quote": "Si le apuntas a alguien es mejor que estés listo para apretar gatillo.",
-    "from": "Terminator: la salvación"
+    "from": "Terminator Salvation"
   },
   {
     "quote": "Una batalla que parece perdida es la más emocionante.",

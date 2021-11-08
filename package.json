@@ -1,6 +1,6 @@
 {
   "name": "spanish-quotes",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A simple NPM Package which returns quotes in spanish.",
   "keywords": [
     "spanish",
@@ -27,11 +27,11 @@
   },
   "type": "module",
   "devDependencies": {
-    "eslint": "^7.12.1",
+    "eslint": "^8.2.0",
     "eslint-config-standard": "^16.0.1",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-promise": "^5.1.1",
     "eslint-plugin-standard": "^5.0.0"
   },
   "author": "davr59 <davr59@outlook.com.com>",

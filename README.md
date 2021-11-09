@@ -12,21 +12,50 @@ Paquete NPM para obtener frases en español.
 
 ## Quickstart | Inicio rápido
 
-Run:
+### Globally | Globalmente
 
-Ejecutar:
+#### Install | Instalar
 
 ```bash
-npm i spanish-quotes --save
+npm i -g spanish-quotes --save
 ```
 
-## Import | Importar
+#### Usage | Uso
+
+Run with installation:
+
+Ejecutar con instalación:
+
+```bash
+spanish-quotes
+```
+
+Run without installation:
+
+Ejecutar sin instalación:
+
+```bash
+npx spanish-quotes
+```
+
+Result:
+
+Resultado:
+
+```text
+La historia decía que era prisionera, pero eso no era cierto, porque ella tenía esperanza y cuando hay esperanza no eres prisionero de nadie.
+ -- Despereaux: un pequeño gran héroe
+```
+
+### Locally | Localmente
+
+#### Import | Importar
 
 ```javascript
 import { getRandomQuote } from 'spanish-quotes';
 ```
 
-## Usage | Uso
+#### Usage | Uso
 
 * getRandomQuote()
 

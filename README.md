@@ -23,7 +23,7 @@ npm i spanish-quotes --save
 ## Import | Importar
 
 ```javascript
-import quotes from 'spanish-quotes';
+import { getRandomQuote } from 'spanish-quotes';
 ```
 
 ## Usage | Uso
@@ -35,7 +35,7 @@ Function that returns a random quote:
 Función que retorna una frase aleatoria:
 
 ```javascript
-quotes.getRandomQuote();
+getRandomQuote();
 ```
 
 Result:

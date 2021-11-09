@@ -36,6 +36,5 @@
     "eslint-plugin-standard": "^5.0.0"
   },
   "author": "davr59 <davr59@outlook.com.com>",
-  "license": "MIT",
-  "private": false
+  "license": "MIT"
 }

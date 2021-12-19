@@ -1,6 +1,6 @@
 {
   "name": "spanish-quotes",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "A simple NPM Package which returns quotes in spanish.",
   "keywords": [
     "spanish",
@@ -36,5 +36,8 @@
     "eslint-plugin-standard": "^5.0.0"
   },
   "author": "davr59 <davr59@outlook.com.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "seedrandom": "^3.0.5"
+  }
 }

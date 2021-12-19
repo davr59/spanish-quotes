@@ -78,6 +78,8 @@ Resultado:
 }
 ```
 
+&nbsp;
+
 * getQuotesCount()
 
 Function that returns the total quotes count:
@@ -95,6 +97,8 @@ Resultado:
 ```
 42
 ```
+
+&nbsp;
 
 * getDailyQuote(year?: number, month?: number, date?: number)
 

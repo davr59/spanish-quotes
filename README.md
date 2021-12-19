@@ -52,7 +52,7 @@ La historia decía que era prisionera, pero eso no era cierto, porque ella tení
 #### Import | Importar
 
 ```javascript
-import { getRandomQuote } from 'spanish-quotes';
+import { getDailyQuote, getQuotesCount, getRandomQuote } from 'spanish-quotes';
 ```
 
 #### Usage | Uso
@@ -65,6 +65,47 @@ Función que retorna una frase aleatoria:
 
 ```javascript
 getRandomQuote();
+```
+
+Result:
+
+Resultado:
+
+```json
+{
+  "quote": "La historia decía que era prisionera, pero eso no era cierto, porque ella tenía esperanza y cuando hay esperanza no eres prisionero de nadie.",
+  "from": "Despereaux: un pequeño gran héroe"
+}
+```
+
+* getQuotesCount()
+
+Function that returns the total quotes count:
+
+Función que retorna la cantidad total de frases:
+
+```javascript
+getQuotesCount();
+```
+
+Result:
+
+Resultado:
+
+```
+42
+```
+
+* getDailyQuote(year?: number, month?: number, date?: number)
+
+Function that returns the daily quote. If year, month or date are undefined, then uses today as the consult date. Month starts in 0:
+
+Función que retorna la frase del día. Si year, month o date son undefined, entonces se usa hoy como la fecha de consulta. Month comienza en 0:
+
+```javascript
+getDailyQuote();
+
+getDailyQuote(2021, 0, 1);
 ```
 
 Result:

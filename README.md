@@ -123,6 +123,8 @@ Resultado:
 }
 ```
 
+&nbsp;
+
 * getLastQuote()
 
 Function that returns the last added quote:
@@ -143,8 +145,6 @@ Resultado:
   "from": "Despereaux: un pequeño gran héroe"
 }
 ```
-
-&nbsp;
 
 ## Want to help? | ¿Quiere ayudar?
 

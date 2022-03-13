@@ -123,6 +123,29 @@ Resultado:
 }
 ```
 
+* getLastQuote()
+
+Function that returns the last added quote:
+
+Función que retorna la última frase agregada:
+
+```javascript
+getLastQuote();
+```
+
+Result:
+
+Resultado:
+
+```json
+{
+  "quote": "La historia decía que era prisionera, pero eso no era cierto, porque ella tenía esperanza y cuando hay esperanza no eres prisionero de nadie.",
+  "from": "Despereaux: un pequeño gran héroe"
+}
+```
+
+&nbsp;
+
 ## Want to help? | ¿Quiere ayudar?
 
 Want to file a bug, contribute some code, or improve documentation? Thanks! Feel free to contact me at [@davidvives](https://twitter.com/davidvives) or at davr59@outlook.com.

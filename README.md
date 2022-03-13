@@ -57,7 +57,7 @@ import { getDailyQuote, getQuotesCount, getRandomQuote } from 'spanish-quotes';
 
 #### Usage | Uso
 
-* getRandomQuote()
+- getRandomQuote()
 
 Function that returns a random quote:
 
@@ -78,9 +78,7 @@ Resultado:
 }
 ```
 
-&nbsp;
-
-* getQuotesCount()
+- getQuotesCount()
 
 Function that returns the total quotes count:
 
@@ -98,9 +96,7 @@ Resultado:
 42
 ```
 
-&nbsp;
-
-* getDailyQuote(year?: number, month?: number, date?: number)
+- getDailyQuote(year?: number, month?: number, date?: number)
 
 Function that returns the daily quote. If year, month or date are undefined, then uses today as the consult date. Month starts in 0:
 
@@ -123,9 +119,7 @@ Resultado:
 }
 ```
 
-&nbsp;
-
-* getLastQuote()
+- getLastQuote()
 
 Function that returns the last added quote:
 

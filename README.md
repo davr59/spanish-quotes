@@ -7,9 +7,9 @@ Paquete NPM para obtener frases en español.
 <p align="center">
   <a href="https://www.npmjs.com/package/spanish-quotes">
     <img src="https://img.shields.io/npm/v/spanish-quotes.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="spanish-quotes on npm" />
+    <img src="https://github.com/davr59/spanish-quotes/actions/workflows/main.yml/badge.svg" alt="publish workflow spanish-quotes on npm" />
   </a>
 </p>
-![workflow](https://github.com/davr59/spanish-quotes/actions/workflows/main.yml/badge.svg)
 
 ## Quickstart | Inicio rápido
 

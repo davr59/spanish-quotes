@@ -20,7 +20,10 @@
   "main": "./lib/quote.js",
   "bin": "./bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint-fix": "npm run lint -- --fix",
+    "pretest": "npm run lint",
+    "test": "c8 --all mocha ./test",
     "postversion": "git push && git push --tags"
   },
   "repository": {
@@ -29,16 +32,16 @@
   },
   "type": "module",
   "devDependencies": {
+    "chai": "^4.3.6",
     "eslint": "^8.12.0",
-    "eslint-config-standard": "^16.0.3",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-standard": "^5.0.0"
+    "mocha": "^9.2.2",
+    "c8": "^7.11.0"
   },
-  "author": "davr59 <davr59@outlook.com.com>",
-  "license": "MIT",
   "dependencies": {
     "seedrandom": "^3.0.5"
-  }
+  },
+  "author": "davr59 <davr59@outlook.com.com>",
+  "license": "MIT"
 }

@@ -8,6 +8,7 @@ Paquete NPM para obtener frases en español.
   <a href="https://www.npmjs.com/package/spanish-quotes">
     <img src="https://img.shields.io/npm/v/spanish-quotes.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="spanish-quotes on npm" />
     <img src="https://github.com/davr59/spanish-quotes/actions/workflows/main.yml/badge.svg" alt="publish workflow spanish-quotes on npm" />
+    <img src="https://img.shields.io/nycrc/davr59/spanish-quotes" alt="nycrc config min coverage" />
   </a>
 </p>
 
@@ -53,49 +54,10 @@ La historia decía que era prisionera, pero eso no era cierto, porque ella tení
 #### Import | Importar
 
 ```javascript
-import { getDailyQuote, getQuotesCount, getRandomQuote } from 'spanish-quotes';
+import { getDailyQuote, getRandomQuote, getAllQuotes } from 'spanish-quotes';
 ```
 
 #### Usage | Uso
-
-- getRandomQuote()
-
-Function that returns a random quote:
-
-Función que retorna una frase aleatoria:
-
-```javascript
-getRandomQuote();
-```
-
-Result:
-
-Resultado:
-
-```json
-{
-  "quote": "La historia decía que era prisionera, pero eso no era cierto, porque ella tenía esperanza y cuando hay esperanza no eres prisionero de nadie.",
-  "from": "Despereaux: un pequeño gran héroe"
-}
-```
-
-- getQuotesCount()
-
-Function that returns the total quotes count:
-
-Función que retorna la cantidad total de frases:
-
-```javascript
-getQuotesCount();
-```
-
-Result:
-
-Resultado:
-
-```
-42
-```
 
 - getDailyQuote(year?: number, month?: number, date?: number)
 
@@ -120,14 +82,14 @@ Resultado:
 }
 ```
 
-- getLastQuote()
+- getRandomQuote()
 
-Function that returns the last added quote:
+Function that returns a random quote:
 
-Función que retorna la última frase agregada:
+Función que retorna una frase aleatoria:
 
 ```javascript
-getLastQuote();
+getRandomQuote();
 ```
 
 Result:
@@ -139,6 +101,29 @@ Resultado:
   "quote": "La historia decía que era prisionera, pero eso no era cierto, porque ella tenía esperanza y cuando hay esperanza no eres prisionero de nadie.",
   "from": "Despereaux: un pequeño gran héroe"
 }
+```
+
+- getAllQuotes()
+
+Function that returns all the quotes:
+
+Función que retorna todas las frases:
+
+```javascript
+getAllQuotes();
+```
+
+Result:
+
+Resultado:
+
+```json
+[
+  {
+    "quote": "La historia decía que era prisionera, pero eso no era cierto, porque ella tenía esperanza y cuando hay esperanza no eres prisionero de nadie.",
+    "from": "Despereaux: un pequeño gran héroe"
+  }
+]
 ```
 
 ## Want to help? | ¿Quiere ayudar?

@@ -1,5 +1,6 @@
 import { expect } from 'chai';
 import { describe, it } from 'mocha';
+// TODO
 // eslint-disable-next-line import/extensions
 import { getAllQuotes, getDailyQuote, getRandomQuote } from '../lib/quote.js';
 
@@ -18,7 +19,11 @@ describe('quote library', () => {
     expectQuote(quote);
     quote = getDailyQuote(today.getFullYear(), today.getMonth());
     expectQuote(quote);
-    quote = getDailyQuote(today.getFullYear(), today.getMonth(), today.getDate());
+    quote = getDailyQuote(
+      today.getFullYear(),
+      today.getMonth(),
+      today.getDate(),
+    );
     expectQuote(quote);
   });
   it('should return a valid random quote', () => {

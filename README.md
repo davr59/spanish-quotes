@@ -51,10 +51,45 @@ La historia decía que era prisionera, pero eso no era cierto, porque ella tení
 
 ### Locally | Localmente
 
+#### Install | Instalar
+
+```bash
+npm i spanish-quotes --save
+```
+
 #### Import | Importar
 
+##### ES Module
+
+Set "type": "module" in the package.json or use the .mjs extension:
+
+Establecer "type": "module" en el package.json o usar la extensión .mjs:
+
+```json
+{
+  "dependencies": {
+    "spanish-quotes": "^X.Y.Z"
+  },
+  "type": "module"
+}
+```
+
 ```javascript
-import { getDailyQuote, getRandomQuote, getAllQuotes } from 'spanish-quotes';
+import { getAllQuotes, getDailyQuote, getRandomQuote } from 'spanish-quotes';
+
+console.log(getAllQuotes());
+console.log(getDailyQuote());
+console.log(getRandomQuote());
+```
+
+##### CommonJS
+
+```javascript
+import('spanish-quotes').then(({ getAllQuotes, getDailyQuote, getRandomQuote }) => {
+  console.log(getAllQuotes());
+  console.log(getDailyQuote());
+  console.log(getRandomQuote());
+});
 ```
 
 #### Usage | Uso

@@ -67,9 +67,6 @@ Establecer "type": "module" en el package.json o usar la extensión .mjs:
 
 ```json
 {
-  "dependencies": {
-    "spanish-quotes": "^X.Y.Z"
-  },
   "type": "module"
 }
 ```
